@@ -1,6 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://tayo5oxdwn22"]
-
-[ext_resource type="Script" path="res://addons/bitmap_fonts_atlas_replacer/utils.gd" id="1_o5f40"]
+[gd_scene format=3 uid="uid://tayo5oxdwn22"]
 
 [node name="asset_replacer" type="MarginContainer"]
 anchors_preset = 15
@@ -17,7 +15,6 @@ theme_override_constants/margin_bottom = 100
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 2
-script = ExtResource("1_o5f40")
 
 [node name="Label" type="Label" parent="VBoxContainer"]
 custom_minimum_size = Vector2(0, 50)
